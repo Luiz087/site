@@ -1,3 +1,5 @@
+
+
 .toggle {
     display: none;
 }
@@ -36,4 +38,14 @@
     content: '';
     left: calc(100% - 22px);
     box-shadow: 0 4px 4px rgb(0, 0, 0 / 10%);
+}
+
+body {
+    transition: 200ms;
+    background: white;
+}
+
+body.dark {
+    transition: 200ms;
+    background: #2e2e2e;
 }
