@@ -43,9 +43,18 @@
 body {
     transition: 200ms;
     background: white;
+    color: rgb(49, 49, 49);
+    font-family: monospace, bold;
 }
 
 body.dark {
     transition: 200ms;
     background: #2e2e2e;
+    color: white;
+
+}
+
+p {
+    margin: 50px;
+    padding: 50px;
 }
